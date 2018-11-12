@@ -40,3 +40,6 @@ http://localhost:8443/api/swagger-ui.html
 ![Alt text](/swagger/swagger-2.JPG?raw=true "Swagger")
 
 
+![Alt text](/swagger/swagger-3.JPG?raw=true "Swagger 2")
+
+
