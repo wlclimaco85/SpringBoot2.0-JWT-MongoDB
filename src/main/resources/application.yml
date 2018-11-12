@@ -1,0 +1,33 @@
+server: 
+  port: 8443
+  servlet: 
+    context-path: /api
+  ssl: 
+    enabled: false
+    key-password: qwerty
+    key-store: src/main/resources/ssl/templatestore.jks
+    key-store-password: qwerty
+      
+jwt:
+  header: Authorization
+  secret: HDMT$8MANPR
+  expiration: 3600
+  sysUserExpiration: 3600
+  route:
+    authentication:
+      path: auth
+      refresh: refresh
+spring:
+   data: 
+     mongodb:
+       uri: mongodb://localhost:27017/test?maxIdleTimeMS=60000;connectTimeoutMS=60000;socketTimeoutMS=300000
+       repositories:
+          enabled: true
+   jackson:
+     serialization:
+       INDENT_OUTPUT: true
+#logging:
+#  level:
+#    org.springframework:
+#      security: DEBUG
+ 
