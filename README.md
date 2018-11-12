@@ -5,6 +5,8 @@ This application will setup the basic spring boot 2.0 server with mongodb jwt to
 Import it as a maven project then build it.
 
 Run the below script in mongo db for the base user.
+```json
+
 {
     "_id" : "101",
     "firstName" : "admin",
@@ -32,6 +34,7 @@ Run the below script in mongo db for the base user.
     }
 }
 
+```
 Then open the swagger UI in the browser
 
 http://localhost:8443/api/swagger-ui.html
