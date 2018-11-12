@@ -36,3 +36,7 @@ Then open the swagger UI in the browser
 
 http://localhost:8443/api/swagger-ui.html
 
+
+![Alt text](/swagger/swagger-2.JPG?raw=true "Swagger")
+
+
