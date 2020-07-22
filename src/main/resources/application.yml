@@ -22,7 +22,7 @@ spring:
      mongodb:
        uri: mongodb://localhost:27017/test?maxIdleTimeMS=60000;connectTimeoutMS=60000;socketTimeoutMS=300000
        repositories:
-          enabled: true
+          type: auto
    jackson:
      serialization:
        INDENT_OUTPUT: true

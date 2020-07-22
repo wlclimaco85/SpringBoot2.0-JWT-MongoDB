@@ -44,7 +44,7 @@ public class AuthenticationRestController {
     @Autowired
     private UserService userService;
   
-    @RequestMapping(value = "${jwt.route.authentication.path}", method = RequestMethod.POST)
+    @RequestMapping(value = "/auth", method = RequestMethod.POST)
     public ResponseEntity<?> createAuthenticationToken(@Valid @RequestBody JwtAuthenticationRequest authenticationRequest)  throws Exception {
 
         // Perform the security
