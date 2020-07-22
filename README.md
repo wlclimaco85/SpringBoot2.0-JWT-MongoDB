@@ -11,7 +11,7 @@ Run the below script in mongo db for the base user.
     "_id" : "101",
     "firstName" : "admin",
     "lastName" : "admin",
-    "email" : "UlB2a0qmuv+GZ1UlcH5ZxA==",
+    "email" : "JS2QcqCycc5g/aVT6Yrv6A==",
     "contact" : "",
     "employeeId" : "user1",
     "userStatus" : "Active",
@@ -28,7 +28,7 @@ Run the below script in mongo db for the base user.
         "statusReason" : "Status Reason",
         "pwdChangeReq" : "NO",
         "lastPwdDate" : "2017-11-02T06:32:42.503",
-        "loginType" : "LoginType,
+        "loginType" : "LoginType",
         "isFirstLogin" : false,
         "consentAccept" : true
     }
